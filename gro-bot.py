@@ -37,7 +37,7 @@ def getBattuteGroucho(domContent):
         retList.append(wd.strip())
     return retList
 
-facebook_graph = GraphAPI(oauth_access_token)
+
 graph = GraphAPI(oauth_access_token)
 
 with open('battute.xml', 'r') as content_file:
